@@ -1,0 +1,166 @@
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+
+h2.titulo{
+    font-size: 40px;
+    text-align: center;
+}
+h2.titulo span{
+    color: #FFD369;
+}
+/* Estilização do cabeçalho */
+
+header {
+    padding: 40px 4%;
+}
+header a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+/* HOVER LINKS */
+header a:hover{
+    color: black;
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+header > .interface {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+header nav ul {
+    list-style-type: none;
+}
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+    font-size: 25px;
+}
+/* BOTAO */
+.btn-contato button{
+    border-radius: 20px;
+    padding: 10px 40px;
+    border: none;
+    background-color:#FFD369;
+    font-family: 'Josefin sans', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .2s;
+}
+.btn-contato button a{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+/* HOVER BOTAO */
+.btn-contato button:hover{
+    box-shadow: 5px 5px 6px black;
+    transform: scale(1.05);
+}
+
+/* TOPO DA PÁGINA */
+
+section.topo-do-site {
+    padding: 40px 4%;
+    box-shadow: 5px 5px 9px grey;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    font-size: 50px;
+    line-height: 40px;
+    opacity: 0.4;
+}
+
+.topo-do-site h2{
+    font-size: 60px;
+    margin: 20px 0px;
+}
+
+.topo-do-site h2 span{
+    color: #FFD369;
+}
+
+.topo-do-site p{
+   margin: 40px 0px;
+   font-size: 20px;
+}
+
+
+.img-topo-site img{
+    width: 500px;
+    height: 550px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 6px;
+}
+
+/* SOBRE */
+
+section.sobre{
+    padding: 40px 4%;
+    background-color: #393e4618;
+    box-shadow: 5px 5px 9px grey;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+.sobre .txt-sobre h2 span {
+    display: block;
+    color: #FFD369;
+}
+
+.sobre .txt-sobre p {
+    margin: 30px 0;
+    text-align: justify;
+}
+.sobre img{
+    border-radius: 20px;
+    box-shadow: 5px 5px 6px;
+}
+
+/* ESPECIALIDADES */
+
+section.especialidades{
+    padding: 40px 4%;
+    margin-top: 40px;
+}
+
+section.especialidades .flex{
+    gap: 60px;
+}
+
+.especialidades .especialidades-box{
+    padding: 40px;
+    margin-top: 45px;
+   text-align: center;
+}
+.especialidades .especialidades-box i{
+    font-size: 70px;
+    text-align: center;
+    color: #FFD369;
+}
+.especialidades .especialidades-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+}
